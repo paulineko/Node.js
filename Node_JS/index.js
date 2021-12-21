@@ -29,7 +29,7 @@ async function main() {
 
     input = await getInput(rl)
     while (!menuInputs.includes(input)) {
-      console.log('Такой команды нет, введите команду из списка')
+      console.log('Такой команды нет, введите команду из списка!')
       input = await getInput(rl)
     }
 
