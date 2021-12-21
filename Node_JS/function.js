@@ -57,7 +57,7 @@ async function changeData(rl) {
   const findID = data.findIndex((eachData) => eachData.ID == input)
 
   if (findID === -1) {
-    console.log('Такого товара нет', '\n')
+    console.log('Такого товара нет!', '\n')
     return
   } else {
     console.log('Введите новое название товара:')
